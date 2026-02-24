@@ -190,7 +190,7 @@ class Config:
     
     # === 定时任务配置 ===
     schedule_enabled: bool = False            # 是否启用定时任务
-    schedule_time: str = "14:40"              # 每日推送时间（HH:MM 格式）
+    schedule_time: str = "14:45"              # 每日推送时间（HH:MM 格式）
     schedule_run_immediately: bool = True     # 启动时是否立即执行一次
     market_review_enabled: bool = True        # 是否启用大盘复盘
     # 大盘复盘市场区域：cn(A股)、us(美股)、both(两者)，us 适合仅关注美股的用户
